@@ -14,8 +14,24 @@
   }
 }
 
+@font-face {
+  font-family: "Neutra Text";
+  src:
+    url("/neutra-regular.woff") format("woff"),
+    url("/neutra-bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neutra Text";
+  src:
+    url("/neutra-regular.woff") format("woff"),
+    url("/neutra-bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Neutra Text", sans-serif;
 }
